@@ -75,6 +75,7 @@ jobs:
             LD_LIBRARY_PATH=/usr/local/cuda-13.0/lib64:$LD_LIBRARY_PATH
             LIBRARY_PATH=/usr/local/cuda-13.0/lib64/stubs:$LIBRARY_PATH
             CMAKE_GENERATOR=Ninja
+            COMFY_CUDA_ARCHS=89
             COMFY_KITCHEN_BUILD_NO_HIP=1
             COMFY_CUDA_COMPILER_LAUNCHER=ccache
             COMFY_CXX_COMPILER_LAUNCHER=ccache
